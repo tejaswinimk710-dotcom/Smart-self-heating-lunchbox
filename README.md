@@ -3,7 +3,8 @@ A closed-loop, ESP32-controlled heating system for a self-heating lunch box, bui
 
 **Team S24** · 2nd Semester EEE · Supervised by Asst. Prof. Smrithi Vijiyan
 
-![Block Diagram](assets/block-diagram.png)
+![Block Diagram](<img width="1220" height="670" alt="Banner_B5_The_Climb_Uncut" src="https://github.com/user-attachments/assets/3deacd2c-4093-477f-a1f9-69bb2b23c143" />
+)
 
 ## Overview
 
@@ -20,13 +21,15 @@ The loop runs continuously with no manual intervention, and status/setpoint can 
 
 This is an evolution of an earlier prototype, **LunchLab S24** — an Arduino Nano + NTC thermistor + 18650 Li-ion + nichrome-coil steam-heating design. That approach had no digital sensing, no safety cutoff logic, and relied on generating steam directly inside the box.
 
-![Design Comparison](assets/design-comparison.png)
+![Design Comparison](<img width="692" height="461" alt="design-comparison" src="https://github.com/user-attachments/assets/cee7f991-6e5c-48a2-8a02-c681c6767ae8" />
+)
 
 The ESP32 + DS18B20 + cartridge-heater redesign trades the steam mechanism for direct thermal contact, adds a real closed-loop firmware cutoff instead of a mechanical water-level probe, and gains Wi-Fi monitoring — at a comparable or lower component cost.
 
 ## Circuit design
 
-![KiCad Schematic](assets/schematic-kicad.png)
+![KiCad Schematic](<img width="1229" height="820" alt="schematic-kicad" src="https://github.com/user-attachments/assets/21bb40f5-9845-4cff-8993-aef92a702739" />
+)
 
 | Component | Part | Function |
 |---|---|---|
